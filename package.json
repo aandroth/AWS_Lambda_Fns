@@ -1,0 +1,22 @@
+{
+  "name": "awsauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config prod.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "amazon-cognito-identity-js": "^4.3.0",
+    "aws-sdk": "^2.683.0",
+    "fetch": "^1.1.0",
+    "json-loader": "^0.5.7",
+    "node-fetch": "^2.6.0",
+    "webpack": "^4.43.0",
+    "webpack-merge": "^4.2.2",
+    "zip-webpack-plugin": "^3.0.0"
+  }
+}
